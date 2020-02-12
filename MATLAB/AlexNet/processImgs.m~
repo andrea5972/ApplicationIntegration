@@ -1,0 +1,11 @@
+% AlexNet
+
+% Authors: Andrea Murphy
+% Date: Spring 2020
+% DESC: Using the pre-trained network AlexNet
+% Process Images for Classification
+
+img = imread('seashore.jpg');
+imshow(img)
+
+sz = size(img);
