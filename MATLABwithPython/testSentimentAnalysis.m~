@@ -1,0 +1,8 @@
+% Sentiment Analysis Example
+% Author: Andrea Murphy
+% Date: Spring 2020
+% DESC: How to call MATlAB from Python
+
+inputText = "This is perfect test input for our sentiment analysis code";
+
+[sentiment, scores] = sentimentAnlysisVADER(inputText);
